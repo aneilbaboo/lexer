@@ -69,7 +69,7 @@ lexer.input = "Hello World!";
 lexer.lex();
 ```
 
-You may even specify [start conditions](http://flex.sourceforge.net/manual/Start-Conditions.html "Start Conditions - Lexical Analysis With Flex, for Flex 2.5.37") for every rule as an optional third argument to the `addRule` method (which must be an array of unsigned integers). By default all rules are active in the initial state (i.e. `0`). Odd start conditions are inclusive while even start conditions are exclusive. Rules with an empty array as the third argument are always active.
+You may even specify [start conditions](http://dinosaur.compilertools.net/flex/flex_11.html "Start Conditions - Lexical Analysis With Flex, for Flex 2.5.37") for every rule as an optional third argument to the `addRule` method (which must be an array of unsigned integers). By default all rules are active in the initial state (i.e. `0`). Odd start conditions are inclusive while even start conditions are exclusive. Rules with an empty array as the third argument are always active.
 
 ## Integration with Jison ##
 
